@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: auto;
+    background: #007bbf;
+
+    /* add flexbox style*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.box{
+    width: 40%;
+    height: 25%;
+    background: yellow;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+/* add responsive media quaries */
+
+@media screen and (max-width:700px){
+    .box{
+        width: 90%;
+        
+    }
+}
